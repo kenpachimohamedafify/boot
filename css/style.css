@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carousel-inner h1,p {
+        text-shadow: 1px 1px #000;
+    }
+     .carousel-inner .carousel-caption{
+        background: rgba(110, 110, 110, 0.5);
+        border-radius: 7px ;
+     }
+     /* a {
+        color: #ccccff !important;
+     }
+     a:hover {
+        color: #fff !important;
+     } */
+    
+     /* .social-links{
+        position: fixed ;
+        
+
+     } */
+     .icons {
+        position: fixed;
+    
+        top: 30%; 
+        right: 50px;
+        z-index: 4;
+      
+     }
+     .icons a{
+        display: block;
+        width: 40px;
+        height: 120px;
+        /* background-color: gray; */
+        color: #ccccff ;
+        /* position: fixed; */
+
+    }
+    .icons a i{
+        font-size: 60px;
+        line-height: 60px;
+        background-color: rgba(29, 22, 22, 0);
+        margin-left: auto;
+    }
+    .social-links a:hover {
+        color: #e0d7d7 ;
+    }
+    .back{
+       
+    background-image: url(../images/cairo/img4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+} 
+    .back1{
+       
+    background-image: url(../images/luxur/img9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+} 
+
+.mad .row .card::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    transition: 1s;
+    opacity: 0;
+}
+.mad .row .card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.mad .row .card::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    transition: 1s;
+    opacity: 0;
+}
+.mad .row .card:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.mmad .row .card{
+    transition: 1s;
+}
+.mmad .row .card:hover {
+    transform: scale(.9,.9);
+}
+
+ .qq .line{
+    display: block;
+    width: 100px;
+    /* margin: auto; */
+    height: 2px;
+    background-color: blue;
+    transition: width .5s;
+}
+.qq:hover .line{
+    width: 150px;
+}
+
+.dfdf .parent {
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+justify-content: space-evenly;
+}
+.dfdf .parent .item {
+    width: 25%;
+    height: 250px;
+    /* background-color: #000; */
+    text-align: center;
+    border: 5px solid gray ;
+    color: #fffbfb !important;
+
+}
+.dfdf .parent .item  h2,img,a{
+    padding: 5px;
+} 
+.dfdf .parent .item .btn:hover{
+    color: #8f8fb1 !important;
+
+} 
+
+.jjj .row .card img,a{
+    opacity: 1;
+}
+.jjj .row .card img:hover {
+    opacity: .5;
+}
+.jjj .row .card a:hover {
+    opacity: .5;
+}
+.mmaa {
+    position: relative;
+}
+.aamm {
+position: absolute;
+right: 5px;
+font-size: 30px;
+
+color: gray;
+
+}
